@@ -1,13 +1,13 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
-body{
+body {
     background-color: #e7e7e786;
 }
 
-.container{
+.container {
     display: flex;
     justify-content: space-around;
     height: 600px;
@@ -16,7 +16,7 @@ body{
     align-items: center;
 }
 
-.flex-item{
+.flex-item {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -26,13 +26,13 @@ body{
     align-items: center;
     border: 10px solid white;
     border-radius: 10px;
-    box-shadow: -3px 1px 11px -1px rgba(178,181,175,0.75);
-    -webkit-box-shadow: -3px 1px 11px -1px rgba(178,181,175,0.75);
-    -moz-box-shadow: -3px 1px 11px -1px rgba(178,181,175,0.75);
+    box-shadow: -3px 1px 11px -1px rgba(178, 181, 175, 0.75);
+    -webkit-box-shadow: -3px 1px 11px -1px rgba(178, 181, 175, 0.75);
+    -moz-box-shadow: -3px 1px 11px -1px rgba(178, 181, 175, 0.75);
 
 }
 
-input{
+input {
     padding: 1rem;
     border: none;
     border: 1px solid #e7e7e7;
@@ -43,46 +43,43 @@ input{
 
 }
 
-.flex-item button{
+.flex-item button {
     border: none;
     border-radius: 13px;
     border: 1px solid #e7e7e7;
     padding: 0.9rem;
-    background-color: rgba(0, 68, 255, 0.911);
-    color: white;    
+    background-color: #166fe5;
+    color: white;
     width: 370px;
     font-size: 15pt;
     font-weight: bold;
     margin-top: 15px;
 }
 
-a{
-    color: rgba(0, 68, 255, 0.815);
+a {
+    color: #166fe5;
+    font-weight: bold;
     margin-top: 15px;
     height: 40px;
     width: 90%;
     border-bottom: 1px solid #e7e7e7;
 }
 
-.flex-item .button-cadastrar{
+.flex-item .button-cadastrar {
     width: 190px;
     font-size: 12pt;
-    background-color: rgba(6, 199, 6, 0.808);
     margin-top: 25px;
+    background: #36a420;
     border-radius: 10px;
-
 }
 
-.flex-logo{
+.flex-logo {
     height: 200px;
     width: 420px;
     font-size: 20pt;
 }
 
-h1{
-margin-bottom: 10px;
-color:rgba(0, 0, 255, 0.877);
+h1 {
+    margin-bottom: 10px;
+    color: rgba(0, 0, 255, 0.877);
 }
-
-
-
